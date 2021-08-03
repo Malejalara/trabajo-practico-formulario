@@ -1,0 +1,29 @@
+body{
+    background-color:springgreen
+}
+legend{
+    font-family: fantasy;
+}
+textarea{
+    background-color: rgb(39, 235, 170);
+}
+input{
+    background-color: rgb(39, 235, 170);
+    font-family: cursive;
+}
+select{
+    background-color: rgb(39, 235, 170);
+    font-family: fantasy;
+}
+fieldset{
+    background-color: rgb(16, 201, 130);
+}
+{
+    background-color: teal;
+}
+p{
+    font-family: cursive;
+}
+label{
+    font-family: cursive;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo parctico #5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="procesa.php" method="POST">
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Name:
+         <input type="text" name="name"></label><br>
+
+         <label>Email:
+         <input type="text" name="email"></label><br>
+</fieldset>
+
+<br><form action="procesa.php" method="POST">
+    <fieldset>
+        <legend>Your Review:</legend>
+        <p>Would did you hear about us?
+    <select name="buscadores">
+        <option value="Google">Google</option>
+        <option value="Microsoft edge">Microsof edge</option>
+        <option value="Mozilla firefox">Mozilla firefox</option></p><br>
+    </select>
+        <p>Would you visit again?:<br>
+        <input type="radio" name="respuesta" value="rock">Yes
+        <input type="radio" name="respuesta" value="jazz">No
+        <input type="radio" name="respuesta" value="pop">Maybe</p>
+<p>Commenst:<br>
+<textarea name="Comentarios" id="200" cols="50" rows="5"></textarea></p>
+<input type="checkbox" name="seleccionar" value="">Sing me up for email updates<br>  
+<input type="submit" value="Submit review">
+</fieldset>
+
+</body>
+</html>
